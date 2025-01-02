@@ -1,5 +1,6 @@
 import { View, Text, Button } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 const Index = () => {
   return (
@@ -10,7 +11,7 @@ const Index = () => {
             alignItems:"center"
         }}
     >
-      <Button title='Click Me' onPress={()=>alert('I hate fatema')}/>
+      <Link href="/sign-in">Sign In</Link>
     </View>
   )
 }
