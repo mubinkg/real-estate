@@ -11,6 +11,7 @@ const Index = () => {
             alignItems:"center"
         }}
     >
+      <Text className='text-red-600'>Wellcome to restate</Text>
       <Link href="/sign-in">Sign In</Link>
     </View>
   )
